@@ -176,10 +176,11 @@ main {
 
 .footer-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* приклеиваем футер к низу страницы */
