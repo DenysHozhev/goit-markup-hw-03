@@ -79,6 +79,24 @@ main {
   gap: 40px;
 }
 
+.effective-container {
+  display: block;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  align-items: center;
+}
+
+.title-effective {
+}
+
+.button-order {
+  display: flex;
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 48px;
+}
+
 .advantages-container {
   display: flex;
   align-items: center;
@@ -154,6 +172,27 @@ main {
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+}
+
+/* приклеиваем футер к низу страницы */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+}
+
+.text-footer {
 }
 
 /*Fonts style*/
