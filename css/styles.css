@@ -130,21 +130,19 @@ main {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 32px 0;
+  /* padding: 32px 0; */
 }
 
 .list-team {
   display: flex;
   align-items: center;
-}
-.title-team {
-  margin: 120px auto 72px;
+  gap: 24px;
+
+  padding-bottom: 120px;
 }
 
-.list-team {
-  gap: 24px;
-  border-radius: 0px 0px 4px 4px;
-  padding-bottom: 120px;
+.title-team {
+  margin: 120px auto 72px;
 }
 
 .team-name {
@@ -153,7 +151,7 @@ main {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .section-portfolio {
@@ -359,6 +357,7 @@ main {
 
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0 120px;
 }
 
 .title-section {
@@ -373,11 +372,12 @@ main {
 }
 
 .title-team {
-  margin: 120px auto 72px;
+  /* margin: 120px auto 72px; */
   background-color: #f4f4fd;
 }
 .item-team {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .subtitle-team {
