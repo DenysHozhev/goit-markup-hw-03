@@ -152,6 +152,11 @@ main {
   padding: 32px 16px;
 }
 
+.section-portfolio {
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+}
+
 .portfolio-container {
   align-items: center;
   margin-bottom: 120px;
@@ -160,7 +165,7 @@ main {
 
 .title-portfolio {
   text-align: center;
-  margin: 120px auto 72px;
+  /* margin: 120px auto 72px; */
 }
 
 .list-portfolio {
@@ -188,8 +193,8 @@ main {
   align-items: flex-start;
   flex-direction: column;
   gap: 16px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
 }
 
 .footer-logo {
@@ -396,6 +401,7 @@ main {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .text-portfolio {
