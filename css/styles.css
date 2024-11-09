@@ -89,14 +89,6 @@ main {
 .title-effective {
 }
 
-.button-order {
-  display: flex;
-  padding: 16px 32px;
-  border-radius: 4px;
-  margin: auto;
-  margin-top: 48px;
-}
-
 .advantages-container {
   display: flex;
   align-items: center;
@@ -281,8 +273,10 @@ main {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+  /* text-align: center; */
   color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .button-order {
@@ -295,6 +289,14 @@ main {
   color: #ffffff;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 48px;
 }
 
 .button-order:hover {
