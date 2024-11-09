@@ -115,15 +115,15 @@ main {
   /* padding: 120px 0; */
 }
 
-.title-advantages {
-  visibility: hidden;
-}
-
 .list-advantages {
   display: flex;
   align-items: center;
 
   gap: 24px;
+}
+
+.item-advantages {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team-container {
@@ -168,7 +168,7 @@ main {
 
 .title-portfolio {
   text-align: center;
-  /* margin: 120px auto 72px; */
+  margin-bottom: 72px;
 }
 
 .list-portfolio {
