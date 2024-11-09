@@ -86,9 +86,13 @@ main {
 
 .effective-container {
   display: block;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
   align-items: center;
+}
+
+.section-advantages {
+  padding: 120px 0 120px;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -108,7 +112,7 @@ main {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 
 .title-advantages {
@@ -153,8 +157,7 @@ main {
 }
 
 .section-portfolio {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-container {
@@ -165,7 +168,7 @@ main {
 
 .title-portfolio {
   text-align: center;
-  margin: 120px auto 72px;
+  /* margin: 120px auto 72px; */
 }
 
 .list-portfolio {
@@ -193,8 +196,8 @@ main {
   align-items: flex-start;
   flex-direction: column;
   gap: 16px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
 }
 
 .footer-logo {
@@ -290,6 +293,7 @@ main {
 
 .section-effective {
   background-color: #2e2f42;
+  padding: 188px 0 188px;
 }
 
 .title-effective {
@@ -418,6 +422,7 @@ main {
 
 .section-footer {
   background-color: #2e2f42;
+  padding: 100px 0 100px;
 }
 
 .text-footer {
