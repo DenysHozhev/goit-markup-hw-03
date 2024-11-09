@@ -23,6 +23,11 @@ ol {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Делаем изображения блочными элементами */
 
 img {
@@ -163,6 +168,7 @@ main {
   text-align: center;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-name {
@@ -327,6 +333,7 @@ main {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .text-advantages {
